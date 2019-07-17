@@ -1,12 +1,13 @@
 class StoreLocations extends Component {
     render() {
         return (
-            <div>
+            <section className="store-locations-list">
                 <h1>Store Locations List</h1>
-                <section>East Nashville</section>
-                <section>Nashville West</section>
-                <section>Mid Town</section>
-            </div>
+                {this.props.storeLocations.map( storeSpot =>
+                <div key={storeSpot[i]}>{storeSpot[i]}
+                </div>
+                )}
+            </section>
         );
     }
 }
