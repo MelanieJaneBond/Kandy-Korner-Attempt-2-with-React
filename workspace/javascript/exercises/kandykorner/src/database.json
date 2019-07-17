@@ -1,0 +1,56 @@
+{
+    "stores": [
+        {
+            "id": 1,
+            "location": "East Nashville"
+        },
+        {
+            "id": 2,
+            "location": "Nashville West"
+        },
+        {
+            "id": 3,
+            "location": "Mid Town"
+        }
+    ],
+    "hires": [
+        {
+            "id": 1,
+            "name": "Joseph Aramath"
+        },
+        {
+            "id": 2,
+            "name": "Tommy Boi"
+        },
+        {
+            "id": 3,
+            "name": "Kathy Henburn"
+        },
+        {
+            "id": 4,
+            "name": "Marty Grans"
+        },
+        {
+            "id": 5,
+            "name": "Britt Spirits"
+        }
+    ],
+    "candyKinds": [
+        {
+            "id": 1,
+            "kind": "Pink Candies"
+        },
+        {
+            "id": 2,
+            "kind": "Striped Candies"
+        },
+        {
+            "id": 3,
+            "kind": "Chocolate Candies"
+        },
+        {
+            "id": 4,
+            "kind": "Sugar-Free Candies"
+        }
+    ]
+}

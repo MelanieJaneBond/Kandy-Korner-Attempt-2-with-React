@@ -1,14 +1,11 @@
 class Employees extends Component {
     render() {
         return (
-            <div>
+            <section className="employee-list">
                 <h1>Employees at Kandy Korner</h1>
-                <section>Joseph Aramath</section>
-                <section>Tommy Boi</section>
-                <section>Kathy Henburn</section>
-                <section>Marty Grans</section>
-                <section>Britt Spirits</section>
-            </div>
+                {this.props.hires.map( each =>
+                <div key={each.id}>{each.name}</div>)}
+            </section>
         );
     }
 }
