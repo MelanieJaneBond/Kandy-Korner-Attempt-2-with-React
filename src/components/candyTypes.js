@@ -8,3 +8,5 @@ class CandyTypes extends Component {
         );
     }
 }
+
+export default CandyTypes

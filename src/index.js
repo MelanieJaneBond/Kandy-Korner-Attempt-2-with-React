@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter as Router } from "react-router-dom"
-import Master from './masterPresenter'
+import Master from './components/KandyKornerMain'
 
 import './index.css'
 

@@ -9,3 +9,5 @@ class Employees extends Component {
         );
     }
 }
+
+export default Employees

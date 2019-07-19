@@ -1,12 +1,15 @@
+import React, { Component } from "react"
 import NavBar from "./navBar";
-import KandyKorner from "./applicationViews"
+import ApplicationViews from "./applicationViews";
+import "../KandyKorner.css"
+import "bootstrap/dist/css/bootstrap.min.css"
 
 class Master extends Component {
     render() {
         return (
             <React.Fragment>
                 <NavBar />
-                <KandyKorner />
+                <ApplicationViews />
             </React.Fragment>
         )
     }
